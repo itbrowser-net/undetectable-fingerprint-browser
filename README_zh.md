@@ -57,10 +57,8 @@ Undetectable Fingerprint Browser 是一款 **高度可定制、真实可还原�
 #### 🧪 预构建 API 示例：
 
 ```js
-const { launch } = require('undetectable-fp-browser');
-
 const browser = await launch({
-  proxy: 'socks5://127.0.0.1:9050',
+  proxy: 'socks5://user1:password2@127.0.0.1:9050',
   itbrowser: 'chrome-114-win10-en-US.json',
   
 });
@@ -94,16 +92,11 @@ const browser = await launch({
 ---
 
 ## 🔧 快速开始
+# 安装预先编译版本
+下载解压预先编译好的版本 [https://www.itbrowser.net](https://www.itbrowser.net)
 
 ```bash
 # 克隆项目
-git clone https://github.com/itbrowser-net/undetectable-fingerprint-browser.git
-cd undetectable-fingerprint-browser
-
-# 安装依赖
-download release zip file from https://www.itbrowser.net
-
-
 # 启动浏览器
 chrome --itbrowser=myfingerprint.json
 ```
@@ -111,14 +104,15 @@ chrome --itbrowser=myfingerprint.json
 **或使用 Puppeteer：**
 
 ```js
-const puppeteer = require('puppeteer-extra');
+const puppeteer = require('puppeteer');
 const browser = await puppeteer.launch({ headless: false,itbrowser:"myfingerprint.json" });
 ```
 
 ---
 
-
-
+# 从源码编译项目
+git clone https://github.com/itbrowser-net/undetectable-fingerprint-browser.git
+合并源码到chromium源码
 
 
 ## ⚠️ 法律免责声明
@@ -136,6 +130,6 @@ const browser = await puppeteer.launch({ headless: false,itbrowser:"myfingerprin
 
 ---
 
-> ⭐ 如果你觉得本项目对你有帮助，欢迎点个 Star 支持一下！
+> ⭐ 如果你觉得本项目对你有帮助，值得启动，欢迎点个 Star 支持一下！我将逐步上传项目源码。
 
 ---
