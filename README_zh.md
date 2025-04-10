@@ -127,6 +127,7 @@ git clone https://github.com/itbrowser-net/undetectable-fingerprint-browser.git
 
 - Github Issues 区欢迎提问或交流；
 - 若需企业级支持或定制服务，可邮件联系：`javaflashproject@gmail.com`
+- [https://discord.gg/AhW2RaHCs6](https://discord.gg/AhW2RaHCs6)
 
 ---
 
