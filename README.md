@@ -130,7 +130,7 @@ The authors are not liable for any misuse of this software.
 - Feel free to open an issue on GitHub for questions or feature requests.  
 - For enterprise-level support or custom development, contact us via email:  
   **`javaflashproject@gmail.com`**
-
+- [https://discord.gg/AhW2RaHCs6](https://discord.gg/AhW2RaHCs6)
 ---
 
 > ⭐ If you find this project useful, please give us a star on GitHub! If you think it's worth starting, please star it to avoid forgetting. I will gradually upload the project source code.
