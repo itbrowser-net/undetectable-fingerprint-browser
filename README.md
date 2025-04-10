@@ -59,10 +59,8 @@ Seamlessly integrate this browser into any automation pipeline, or fully control
 #### 🧪 Sample Usage (JS API):
 
 ```js
-const { launch } = require('undetectable-fp-browser');
-
 const browser = await launch({
-  proxy: 'socks5://127.0.0.1:9050',
+  proxy: 'socks5://user1:password2@127.0.0.1:9050',
   itbrowser: 'chrome-114-win10-en-US.json',
 });
 ```
@@ -95,16 +93,9 @@ const browser = await launch({
 ---
 
 ## 🔧 Quick Start
+Download the prebuild release zip file from [https://www.itbrowser.net](https://www.itbrowser.net)
 
 ```bash
-# Clone the project
-git clone https://github.com/itbrowser-net/undetectable-fingerprint-browser.git
-cd undetectable-fingerprint-browser
-
-# Install dependencies
-# (Instead of npm install, download the binary)
-Download the release zip file from https://www.itbrowser.net
-
 # Start the browser
 chrome --itbrowser=myfingerprint.json
 ```
@@ -118,6 +109,10 @@ const browser = await puppeteer.launch({
   itbrowser: "myfingerprint.json"
 });
 ```
+
+# build the project from source
+git clone https://github.com/itbrowser-net/undetectable-fingerprint-browser.git
+merge the code with chromium source code.
 
 ---
 
@@ -138,6 +133,6 @@ The authors are not liable for any misuse of this software.
 
 ---
 
-> ⭐ If you find this project useful, please give us a star on GitHub!
+> ⭐ If you find this project useful, please give us a star on GitHub! If you think it's worth starting, please star it to avoid forgetting. I will gradually upload the project source code.
 
 --- 
