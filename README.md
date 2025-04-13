@@ -6,6 +6,8 @@
 
 Whether you're engaged in **anti-anti-scraping research, marketing analytics, multi-account management**, or need to build a **fully controllable browser automation environment**, this project is your ultimate choice.
 
+download prebuild release browser [https://drive.google.com/file/d/1L8qQZdS--VvxKy55s5RAK1UvRUvRtTYY/view?pli=1](https://drive.google.com/file/d/1L8qQZdS--VvxKy55s5RAK1UvRUvRtTYY/view?pli=1)
+
 ---
 
 ## 🚀 Key Highlights
