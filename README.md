@@ -94,23 +94,25 @@ const browser = await launch({
 
 ---
 
-## 🔧 Quick Start
-Download the prebuild release zip file from [https://www.itbrowser.net](https://www.itbrowser.net)
+## 🔧 Quick Start  
+# Install Pre-Compiled Version  
+Download and extract the pre-built package: [Compiled Binary Release](https://github.com/itbrowser-net/undetectable-fingerprint-browser/releases/download/v1.0.0/fingerprint_browser_v1.0.7z).  
 
-```bash
-# Start the browser
-chrome --itbrowser=myfingerprint.json
-```
+**Generate a Fingerprint via Command Line**  
+```bash  
+./itbrowser_fingerprint.exe  
+```  
 
-**Or using Puppeteer:**
+**Launch the Browser with a Specified Fingerprint**  
+```bash  
+chrome --itbrowser=myfingerprint.json  
+```  
 
-```js
-const puppeteer = require('puppeteer-extra');
-const browser = await puppeteer.launch({
-  headless: false,
-  itbrowser: "myfingerprint.json"
-});
-```
+**For Automation Use:**  
+```bash  
+chrome.exe --user-data-dir=data1 --itbrowser="D:\Program Files\chrome\1.json" --proxy-server="socks5://someuser:password@host:port" --remote-debugging-port=9222  
+```  
+
 
 # build the project from source
 git clone https://github.com/itbrowser-net/undetectable-fingerprint-browser.git

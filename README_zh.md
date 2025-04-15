@@ -52,17 +52,7 @@ Undetectable Fingerprint Browser 是一款 **高度可定制、真实可还原�
 - Puppeteer：通过自定义 Chromium 路径运行；
 - Playwright：兼容 chromium 引擎调用；
 - 支持 DevTools Protocol、WebSocket 控制接口；
-- 提供 JS API 与 CLI 工具用于自定义调试与调控；
 
-#### 🧪 预构建 API 示例：
-
-```js
-const browser = await launch({
-  proxy: 'socks5://user1:password2@127.0.0.1:9050',
-  itbrowser: 'chrome-114-win10-en-US.json',
-  
-});
-```
 
 ---
 
@@ -93,19 +83,21 @@ const browser = await launch({
 
 ## 🔧 快速开始
 # 安装预先编译版本
-下载解压预先编译好的版本 [https://www.itbrowser.net](https://www.itbrowser.net)
+下载解压预先编译好的版本[编译二进制版本](https://github.com/itbrowser-net/undetectable-fingerprint-browser/releases/download/v1.0.0/fingerprint_browser_v1.0.7z) 
+
+**使用命令行方式生成指纹**
+```bash
+./itbrowser_fingerprint.exe
+```
+**启动浏览器，并指定指纹**
 
 ```bash
-# 克隆项目
-# 启动浏览器
 chrome --itbrowser=myfingerprint.json
 ```
 
-**或使用 Puppeteer：**
-
-```js
-const puppeteer = require('puppeteer');
-const browser = await puppeteer.launch({ headless: false,itbrowser:"myfingerprint.json" });
+**如果打算使用自动化：**
+```bash
+  chrome.exe --user-data-dir=data1 --itbrowser="D:\Program Files\chrome\1.json" --proxy-server="socks5://someuser:password@host:port" --remote-debugging-port=9222
 ```
 
 ---
