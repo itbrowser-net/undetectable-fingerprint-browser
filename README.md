@@ -58,14 +58,7 @@ Seamlessly integrate this browser into any automation pipeline, or fully control
 - DevTools Protocol and WebSocket control support  
 - JavaScript API and CLI tools for advanced tuning and scripting
 
-#### 🧪 Sample Usage (JS API):
 
-```js
-const browser = await launch({
-  proxy: 'socks5://user1:password2@127.0.0.1:9050',
-  itbrowser: 'chrome-114-win10-en-US.json',
-});
-```
 
 ---
 
