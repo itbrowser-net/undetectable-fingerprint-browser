@@ -13,8 +13,9 @@ Whether you're engaged in **anti-anti-scraping research, marketing analytics, mu
 
 
 
+### download [prebuild release browser](https://github.com/itbrowser-net/undetectable-fingerprint-browser/releases/download/v1.0.0/fingerprint_browser_v1.0.7z) 
 
-download [prebuild release browser](https://github.com/itbrowser-net/undetectable-fingerprint-browser/releases/download/v1.0.0/fingerprint_browser_v1.0.7z) 
+
 
 ---
 
@@ -102,17 +103,17 @@ Download and extract the pre-built package: [Compiled Binary Release](https://gi
 **Generate a Fingerprint via Command Line**  
 ```bash  
 ./itbrowser_fingerprint.exe  
-```  
+```
 
 **Launch the Browser with a Specified Fingerprint**  
 ```bash  
 chrome --itbrowser=myfingerprint.json  
-```  
+```
 
 **For Automation Use:**  
 ```bash  
 chrome.exe --user-data-dir=data1 --itbrowser="D:\Program Files\chrome\1.json" --proxy-server="socks5://someuser:password@host:port" --remote-debugging-port=9222  
-```  
+```
 
 
 # build the project from source
@@ -140,4 +141,4 @@ The authors are not liable for any misuse of this software.
 
 > ⭐ If you find this project useful, please give us a star on GitHub! If you think it's worth starting, please star it to avoid forgetting. I will gradually upload the project source code.
 
---- 
+---
