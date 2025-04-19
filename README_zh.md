@@ -1,7 +1,15 @@
 # 🕵️‍♂️ Undetectable Fingerprint Browser  
+
+[English Introduce](https://github.com/itbrowser-net/undetectable-fingerprint-browser/blob/main/README.md)
+
 **开源·模块化·可编程的反检测浏览器**
 
 Undetectable Fingerprint Browser 是一款 **高度可定制、真实可还原、自动化友好** 的反检测浏览器，专为对抗现代网站复杂指纹识别系统而设计。无论你是进行 **反反爬研究、营销监测、多账号防关联**，还是需要构建一个**高度可控的自动化浏览器环境**，本项目都是你的不二之选。
+
+![fingerprints](usage/fingerprints_zh.png)
+
+
+
 下载[编译后二进制版本](https://github.com/itbrowser-net/undetectable-fingerprint-browser/releases/download/v1.0.0/fingerprint_browser_v1.0.7z) 
 ---
 

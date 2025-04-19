@@ -9,6 +9,11 @@
 
 Whether you're engaged in **anti-anti-scraping research, marketing analytics, multi-account management**, or need to build a **fully controllable browser automation environment**, this project is your ultimate choice.
 
+![fingerprints](usage/fingerprints_en.png)
+
+
+
+
 download [prebuild release browser](https://github.com/itbrowser-net/undetectable-fingerprint-browser/releases/download/v1.0.0/fingerprint_browser_v1.0.7z) 
 
 ---
